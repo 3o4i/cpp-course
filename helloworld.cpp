@@ -1,12 +1,20 @@
 #include <iostream>
 
-int main() {
+namespace first{
+    int x = 1;
+}
 
-    const double pi = 3.14;
-    double radius = 10;
-    double circumference = 2 * pi * radius;
-    
-    std::cout << circumference << "cm";
+namespace second{
+    int x = 2;
+}
+
+int main() {
+    using namespace first;
+
+    // int x = 0;
+
+    // std::cout << second::x;
+    std::cout << x;
 
     return 0;
 }
