@@ -2,16 +2,34 @@
 
 int main() {
 
-    // This is a comment
-    /*
-        This 
-        is 
-        a 
-        multi-line
-        comment
-    */
+    //integer (whole number)
+    int age = 18;
+    int year = 2026;
+    int days = 7.9;
 
-    std::cout << "I like pizza!" << '\n';
-    std::cout << "It's really good!" << '\n';
+    //double (number including decimal)
+    double price = 10.99;
+    double gpa = 2.5;
+    double temperature = 25.1;
+
+    // single character
+    char grade = 'A';
+    char initial = 'B';
+    char currency = '$';
+
+    // boolean (true or false)
+    bool student = true;
+    bool power = false;
+    bool forSale = true;
+
+    // string (objects that represents a sequence of text)
+    std::string name = "Tobi";
+    std::string day = "Friday";
+    std::string food = "Pizza";
+    std::string address = "123 Fake St.";
+
+    std::cout << "Hello " << name << '\n';
+    std::cout << "You are " << age << " years old" << '\n';
+
     return 0;
 }
