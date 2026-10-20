@@ -1,99 +1,142 @@
-# C++ Learning Journey
+<div align="center">
 
-A structured collection of C++ exercises, examples, and practice programs as I learn the language from the ground up.
+# 🚀 C++ Course
 
-I'm following **[C++ Full Course for free — Bro Code](https://www.youtube.com/watch?v=-TkoO8Z07hI)** and using this repository to document my progress, reinforce programming fundamentals, and develop consistent coding habits.
+**My journey learning C++ from the ground up.**
 
-## About This Repository
+A collection of exercises, examples, and small projects built while following<br>
+[Bro Code's C++ Full Course](https://www.youtube.com/watch?v=-TkoO8Z07hI).
 
-This repository contains my own implementations and experiments while working through the course. It serves as a practical record of what I've learned and a place to revisit concepts as I improve.
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![GCC](https://img.shields.io/badge/GCC-Compiler-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Learning-brightgreen?style=for-the-badge)
 
-**Current focus:** C++ fundamentals and programming basics.
+[Progress](#-learning-progress) •
+[Projects](#-projects) •
+[Structure](#-repository-structure) •
+[Compile](#-compiling-and-running) •
+[Course](#-course)
 
-## Topics & Progress
-
-Progress is updated as I study and practice each topic.
-
-- [x] Variables and basic data types
-- [x] Constants
-- [x] Namespaces
-- [x] Type aliases (`typedef` and `using`)
-- [x] Arithmetic operators
-- [x] Type conversion
-- [x] User input
-- [x] Mathematical functions
-- [ ] Conditionals and logical operators
-- [ ] Strings and string methods
-- [ ] Loops and iteration
-- [ ] Random numbers
-- [ ] Functions and function overloading
-- [ ] Arrays and array algorithms
-- [ ] Pass by value and pass by reference
-- [ ] Memory addresses and pointers
-- [ ] Dynamic memory and recursion
-- [ ] Function templates
-- [ ] Structures and enumerations
-- [ ] Object-oriented programming
-- [ ] Classes, constructors, and inheritance
-
-## Repository Structure
-
-The code is organized into numbered directories by topic, making it easier to navigate concepts in learning order.
-
-| Directory | Contents |
-|---|---|
-| `01-basics/` | Fundamental syntax, variables, operators, and input |
-| `02-control-flow/` | Conditional statements and loops |
-| `03-member-functions/` | Member functions and related exercises |
-| `04-random-numbers/` | Random-number exercises |
-| `05-functions/` | Function-related examples and practice |
-
-*The directory structure may evolve as I cover more topics.*
-
-## Tech Stack
-
-- **Language:** C++
-- **Compiler:** GCC
-- **Editor:** Visual Studio Code
-- **Version control:** Git and GitHub
-
-## Compiling and Running
-
-With GCC installed and available in your terminal:
-
-```bash
-g++ path/to/program.cpp -o program
-```
-
-Run the compiled program:
-
-**Windows (PowerShell):**
-
-```powershell
-.\program.exe
-```
-
-**Linux / macOS:**
-
-```bash
-./program
-```
-
-Replace `path/to/program.cpp` with the path to the source file you want to compile.
-
-## Learning Approach
-
-- Practice each concept through small programs.
-- Keep source files organized by topic.
-- Use Git to track changes and progress.
-- Revisit concepts and improve earlier implementations when appropriate.
-
-## Learning Resource
-
-**Course:** [C++ Full Course for free — Bro Code](https://www.youtube.com/watch?v=-TkoO8Z07hI)
-
-This repository is an independent learning project. The course belongs to its original creator; the code here represents my own practice and learning progress.
+</div>
 
 ---
 
-*Learning step by step, one program at a time.*
+## 📈 Learning Progress
+
+![Progress](https://img.shields.io/badge/Progress-Fundamentals_Complete-blue?style=flat-square)
+
+### ✅ Completed
+
+| Topic | What I Covered |
+|:---|:---|
+|  **Fundamentals** | Variables, data types, constants, namespaces, type aliases, user input |
+|  **Operators** | Arithmetic, logical, ternary, type conversion |
+|  **Math** | Mathematical functions |
+|  **Strings** | String methods |
+|  **Control Flow** | `if`, `switch`, `while`, `do-while`, `for`, nested loops |
+|  **Loop Control** | `break` and `continue` |
+|  **Random Numbers** | Random-number generation |
+|  **Functions** | User-defined functions |
+
+### 🔜 Upcoming
+
+- [ ] Function overloading and default arguments
+- [ ] Arrays and strings in greater depth
+- [ ] Pass by value and pass by reference
+- [ ] Pointers and memory addresses
+- [ ] Dynamic memory allocation
+- [ ] Recursion and function templates
+- [ ] Structures and enumerations
+- [ ] Object-oriented programming
+
+> 💡 *Progress is updated as I work through the course and practice each topic.*
+
+---
+
+## 🛠️ Projects
+
+Small programs that apply concepts from the course.
+
+| Project | Concepts |
+|:---|:---|
+| 📏 **Hypotenuse Calculator** | Mathematical functions |
+| 🧮 **Console Calculator** | Input, operators, and control flow |
+| 🌡️ **Temperature Converter** | Variables, input, and arithmetic |
+| 🎯 **Number Guessing Game** | Random numbers, loops, and conditionals |
+
+---
+
+## 📁 Repository Structure
+
+```text
+cpp-course/
+├── 01-basics/            # Variables, types, input
+├── 02-control-flow/      # Conditions and loops
+├── 03-member-functions/  # String methods
+├── 04-random-numbers/    # Random generation
+├── 05-functions/         # User-defined functions
+├── .vscode/              # Editor settings
+├── .gitignore
+└── README.md
+```
+
+Each numbered directory groups source files by topic and follows the order of my learning journey.
+
+---
+
+## 🧰 Tools
+
+| | |
+|:---|:---|
+| **Language** | C++ |
+| **Compiler** | GCC |
+| **Editor** | Visual Studio Code |
+| **Version Control** | Git and GitHub |
+
+---
+
+## ⚙️ Compiling and Running
+
+Make sure GCC is installed and `g++` is available in your terminal.
+
+Compile a source file from the repository root:
+
+<details open>
+<summary><b>🪟 Windows (PowerShell)</b></summary>
+
+```powershell
+g++ .\01-basics\user-input.cpp -o user-input.exe
+.\user-input.exe
+```
+
+</details>
+
+<details>
+<summary><b>🐧 Linux</b></summary>
+
+```bash
+g++ ./01-basics/user-input.cpp -o user-input
+./user-input
+```
+
+</details>
+
+> Replace the source-file path with the file you want to compile.
+
+---
+
+## 🎓 Course
+
+**[C++ Full Course for free — Bro Code](https://www.youtube.com/watch?v=-TkoO8Z07hI)**
+
+This repository is an independent learning project. Course materials belong to their respective creator; the code here reflects my own practice and progress.
+
+---
+
+<div align="center">
+
+*Learning by building, practicing, and improving.* ✨
+
+</div>
