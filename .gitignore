@@ -1,1 +1,11 @@
+# Compiled C++ files
 *.exe
+*.o
+*.obj
+*.out
+
+# Temporary files
+tempCodeRunnerFile.cpp
+
+# IDE and editor files
+.vs/
