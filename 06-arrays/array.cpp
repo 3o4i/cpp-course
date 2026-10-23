@@ -2,15 +2,12 @@
 
 int main() {
 
-    std::string car[3];
+    double prices[] = {5.00, 7.50, 9.99, 15.00};
 
-    car[0] = "Camaro";
-    car[1] = "BMW";
-    car[2] = "Mustang";
-
-    std::cout << car[0] << '\n';
-    std::cout << car[1] << '\n';
-    std::cout << car[2] << '\n';
+    std::cout << prices[0] << '\n'; 
+    std::cout << prices[1] << '\n'; 
+    std::cout << prices[2] << '\n'; 
+    std::cout << prices[3] << '\n'; 
 
     return 0;
 }
