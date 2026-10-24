@@ -9,15 +9,17 @@ int main() {
         std::cout << "Enter the food you like or 'q' to quit #" << i + 1 << ": ";
         std::getline(std::cin, temp);
         if(temp == "q"){
-            return 0;
+            break;
         } else {
             foods[i] = temp;
         }
     }
 
-    std::cout << "You like the following food:\n";
+    if(temp != "q") {
+        std::cout << "You like the following food:\n";
+    }
 
-    for(int i = 0; i < !foods[i].empty(); i++) {
+    for(int i = 0; !foods[i].empty(); i++) {
         std::cout << foods[i] << '\n';
     }
 
